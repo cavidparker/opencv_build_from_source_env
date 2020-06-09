@@ -32,5 +32,8 @@ Step 7:
 Step 8:
 - sudo apt-get install libgtk-3-dev
 
+Step 9:
+- sudo apt-get install libatlas-base-dev gfortran
+
 
 
