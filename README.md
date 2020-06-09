@@ -36,7 +36,7 @@ Step 9:
 - sudo apt-get install libatlas-base-dev gfortran
 
 Step 10:
-go to: /home/cavid/opencv_lib/opencv/build 
+- go to: /home/cavid/opencv_lib/opencv/build 
 - run:   ./opencv_source_build.sh 
 
 
