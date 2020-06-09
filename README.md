@@ -25,3 +25,12 @@ Step 6:
 - sudo apt update
 - sudo apt install libjasper1 libjasper-dev
 
+Step 7:
+- sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+- sudo apt-get install libxvidcore-dev libx264-dev
+
+Step 8:
+- sudo apt-get install libgtk-3-dev
+
+
+
