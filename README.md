@@ -18,3 +18,6 @@ Step 4:
 Step 5:
 - sudo apt-get install libjpeg-dev libpng-dev libtiff-dev
 
+Step 6:
+- sudo apt-get install libjasper-dev
+
