@@ -20,4 +20,8 @@ Step 5:
 
 Step 6:
 - sudo apt-get install libjasper-dev
+### Note: If you receive an error about libjasper-dev being missing then follow the following instructions:
+- sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
+- sudo apt update
+- sudo apt install libjasper1 libjasper-dev
 
