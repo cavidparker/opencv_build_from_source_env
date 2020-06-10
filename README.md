@@ -39,6 +39,9 @@ Step 10:
 - go to: /home/cavid/opencv_lib/opencv/build 
 - run:   ./opencv_source_build.sh 
 
+Step 10:
+- make -j4 
+
 
 
 
