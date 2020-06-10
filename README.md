@@ -42,6 +42,12 @@ Step 10:
 Step 10:
 - make -j4 
 
+Step 11:
+- sudo make install
+
+Step 12:
+- sudo ldconfig
+
 
 
 
