@@ -49,6 +49,9 @@ Step 11:
 Step 12:
 - sudo ldconfig
 
+##### Check the version 
+- pkg-config --modversion opencv
+
 
 
 
