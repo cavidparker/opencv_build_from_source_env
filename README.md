@@ -8,49 +8,49 @@ Step 2 :
 - sudo apt-get update
 - sudo apt-get upgrade
 
-Step 3:
+Step 3 :
 - conda activate opencv_source
 - pip install numpy
 
-Step 4:
+Step 4 :
 - sudo apt-get install build-essential cmake unzip pkg-config
 
-Step 5:
+Step 5 :
 - sudo apt-get install libjpeg-dev libpng-dev libtiff-dev
 
-Step 6:
+Step 6 :
 - sudo apt-get install libjasper-dev
 ### Note: If you receive an error about libjasper-dev being missing then follow the following instructions:
 - sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
 - sudo apt update
 - sudo apt install libjasper1 libjasper-dev
 
-Step 7:
+Step 7 :
 - sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
 - sudo apt-get install libxvidcore-dev libx264-dev
 
-Step 8:
+Step 8 :
 - sudo apt-get install libgtk-3-dev
 
-Step 9:
+Step 9 :
 - sudo apt-get install libatlas-base-dev gfortran
 
-Step 10:
+Step 10 :
 ##### Note: create the opencv_lib folder download the opencv and contrib and pase it under the opencv_lib forder. create the build folder and copy the opencv_source_build.sh file and paste it under the build folder
 - go to: /home/cavid/opencv_lib/opencv/build  
 - run:   ./opencv_source_build.sh 
 
-Step 10:
+Step 10 :
 - make -j4 
 
-Step 11:
+Step 11 :
 - sudo make install
 
-Step 12:
+Step 12 :
 - sudo ldconfig
 
 ##### Check the version 
-- pkg-config --modversion opencv
+- pkg-config --modversion opencv 
 
 
 
